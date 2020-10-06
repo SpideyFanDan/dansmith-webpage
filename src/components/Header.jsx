@@ -22,20 +22,20 @@ class Header extends Component {
 							Resume
 						</Nav.Link>
 						<NavDropdown title='Blogs' id='collasible-nav-dropdown'>
-							<NavDropdown.Item className='dropdown' href='#action/3.1'>
+							<NavDropdown.Item className='dropdown' href='/blog'>
 								Travel Blog 1
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='#action/3.2'>
+							<NavDropdown.Item className='dropdown' href='/blog'>
 								Travel Blog 2
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='#action/3.3'>
+							<NavDropdown.Item className='dropdown' href='/blog'>
 								Travel Blog 3
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item className='dropdown' href='#action/3.4'>
+							<NavDropdown.Item className='dropdown' href='/blog'>
 								Developer Blog 1
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='#action/3.4'>
+							<NavDropdown.Item className='dropdown' href='/blog'>
 								Developer Blog 2
 							</NavDropdown.Item>
 						</NavDropdown>

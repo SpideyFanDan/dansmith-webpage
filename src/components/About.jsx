@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 export default class About extends Component {
 	render() {
-		return <div>ABOUT PAGE...coming soon</div>;
+		return (
+				<h1>ABOUT PAGE...coming soon</h1>
+		);
 	}
 }
