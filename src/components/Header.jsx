@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import { MDBIcon, MDBContainer } from 'mdbreact';
 
 class Header extends Component {
 	render() {
@@ -41,52 +41,50 @@ class Header extends Component {
 						</NavDropdown>
 					</Nav>
 					<Nav>
-						<Nav.Link>
-							<MDBContainer className='social'>
-								<a
-									href='https://www.linkedin.com/in/dansmithdev/'
-									className='li-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='linkedin-in' />
-								</a>
-								<a
-									href='SpideyFanDan.github'
-									className='git-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='github' />
-								</a>
-								<a
-									href='https://www.instagram.com/spideyfandan/'
-									className='ins-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='instagram' />
-								</a>
-								<a
-									href='https://twitter.com/SpideyFanDan'
-									className='tw-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='twitter' />
-								</a>
-								<a
-									href='https://www.facebook.com/SpideyFanDan'
-									className='fb-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='facebook-f' />
-								</a>
-								<a
-									href='https://www.youtube.com/channel/UCDvqg8L184ADwDCt-Dkkdbg/'
-									className='yt-ic mr-3'
-									target='new'>
-									<MDBIcon fab icon='youtube' />
-								</a>
-								<a
-									href='mailto:dansmith.coder@gmail.com'
-									className='email-ic mr-3'
-									target='new'>
-									<MDBIcon icon='envelope' />
-								</a>
-							</MDBContainer>
-						</Nav.Link>
+						<MDBContainer className='social'>
+							<a
+								target='new'
+								href='https://www.linkedin.com/in/dansmithdev/'
+								className='li-ic mr-3'>
+								<MDBIcon fab icon='linkedin-in' />
+							</a>
+							<a
+								target='new'
+								href='https://github.com/SpideyFanDan'
+								className='git-ic mr-3'>
+								<MDBIcon fab icon='github' />
+							</a>
+							<a
+								target='new'
+								href='https://www.instagram.com/spideyfandan/'
+								className='ins-ic mr-3'>
+								<MDBIcon fab icon='instagram' />
+							</a>
+							<a
+								target='new'
+								href='https://twitter.com/SpideyFanDan'
+								className='tw-ic mr-3'>
+								<MDBIcon fab icon='twitter' />
+							</a>
+							<a
+								target='new'
+								href='https://www.facebook.com/SpideyFanDan'
+								className='fb-ic mr-3'>
+								<MDBIcon fab icon='facebook-f' />
+							</a>
+							<a
+								target='new'
+								href='https://www.youtube.com/channel/UCDvqg8L184ADwDCt-Dkkdbg/'
+								className='yt-ic mr-3'>
+								<MDBIcon fab icon='youtube' />
+							</a>
+							<a
+								target='new'
+								href='mailto:dansmith.coder@gmail.com'
+								className='email-ic mr-3'>
+								<MDBIcon icon='envelope' />
+							</a>
+						</MDBContainer>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
