@@ -74,5 +74,18 @@ code {
 }
 h2 {
 	font-family: 'Fanboy';
-	color: #e5e5e5 !important;
+	color: #ea5455 !important;
+}
+.resume-img {
+	width: 100%;
+	max-width: 1000px;
+}
+.view-button {
+	font-family: 'Fanboy' !important;
+	color: #ea5455 !important;
+}
+@media screen and (max-width: 600px) {
+	h2 {
+		font-size: 18px !important;
+	}
 }
