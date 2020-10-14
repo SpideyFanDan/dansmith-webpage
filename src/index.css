@@ -72,3 +72,7 @@ code {
 	align-items: center;
 	justify-content: centre;
 }
+h2 {
+	font-family: 'Fanboy';
+	color: #e5e5e5 !important;
+}

@@ -4,7 +4,7 @@ export default class About extends Component {
 	render() {
 		return (
 			<div>
-				<h1>ABOUT PAGE...coming soon</h1>
+				<h1>About Me</h1>
 				<p>
 					My name is Dan Smith, and I've always felt that where my name lacks in
 					excitement, I have to make up for it with personality.{' '}

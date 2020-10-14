@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
+import ReactPlayer from 'react-player';
 
 export default class Portfolio extends Component {
 	render() {
