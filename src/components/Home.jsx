@@ -8,7 +8,7 @@ export default class Home extends Component {
 		return (
 			<Container fluid>
 				<Jumbotron className='jumbotron'>
-					<h2>Welcome to Dan Smith's Website</h2>
+					<h1>Welcome to Dan Smith's Website</h1>
 					<p>Web Developer and Super-Geeky Comics Fan</p>
 					<Link to='/about'>
 						<Button className='btn'>About</Button>

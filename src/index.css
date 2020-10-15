@@ -1,39 +1,32 @@
 @font-face {
-	font-family: 'Fanboy';
-	src: local('Fanboy'), url(./fonts/fanboyhc.ttf) format('truetype');
-	font-family: 'ComicHelvetic';
-	src: local('ComicHelvetic'),
-		url(./fonts/ComicHelvetic_Light.otf) format('opentype');
-	font-family: 'Avengeance';
-	src: local('Avengeance'),
-		url(./fonts/AVENGEANCE_HEROIC_AVENGER_BD.ttf) format('truetype');
-	font-family: 'Joinks';
-	src: local('Joinks'), url(./fonts/JOINKS.TTF) format('truetype');
+	font-family: 'ArchitectsDaughter';
+	src: local('ArchitectsDaughter'),
+		url(./fonts/ArchitectsDaughter-Regular.ttf) format('truetype');
 }
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Fanboy', 'ComicHelvetic', 'Avengeance', 'Joinks', 'Ubuntu', 'Cantarell',
-		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		'Architects Daughter', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Fanboy',
-		'ComicHelvetic', 'Avengeance', 'Joinks', monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		'Architects Daughter', monospace;
 }
 .caption {
 	background-color: #ea5455;
 	border-radius: 1em;
-	font-family: 'Fanboy' !important;
+	font-family: 'Architects Daughter' !important;
 }
 .caption p {
-	font-family: 'Fanboy' !important;
+	font-family: 'Architects Daughter' !important;
 	font-size: 0.5em;
 }
 .caption h6 {
-	font-family: 'Fanboy' !important;
+	font-family: 'Architects Daughter' !important;
 	font-size: 1em;
 }
 .carousel-image {
@@ -44,8 +37,9 @@ code {
 }
 .navbar {
 	background: #2d4059 !important;
-	font-family: 'Fanboy' !important;
+	font-family: 'Architects Daughter' !important;
 	color: #e5e5e5 !important;
+	font-size: 28px !important;
 }
 .nav-link {
 	color: #e5e5e5 !important;
@@ -58,8 +52,13 @@ code {
 }
 .jumbotron {
 	background-color: #ea5455 !important;
-	font-family: 'Fanboy';
+	font-family: 'Architects Daughter';
 	color: #e5e5e5 !important;
+	font-size: 24px;
+}
+.jumbotron h2 {
+	color: #e5e5e5 !important;
+	font-family: 'Architects Daughter';
 }
 .btn {
 	margin-left: 10px;
@@ -69,11 +68,12 @@ code {
 }
 .websling {
 	width: 100%;
+	max-width: 1000px !important;
 	align-items: center;
 	justify-content: centre;
 }
 h2 {
-	font-family: 'Fanboy';
+	font-family: 'Architects Daughter';
 	color: #ea5455 !important;
 }
 .resume-img {
@@ -81,11 +81,30 @@ h2 {
 	max-width: 1000px;
 }
 .view-button {
-	font-family: 'Fanboy' !important;
+	font-family: 'Architects Daughter' !important;
 	color: #ea5455 !important;
+}
+.about {
+	font-family: 'Architects Daughter';
+	background-color: #e5e5e5;
+	color: #2d4059;
+	font-size: 24px;
+}
+.about h1 {
+	background-color: #ea5455;
+	color: #2d4059;
+}
+.about hr {
+	color: #2d4059;
 }
 @media screen and (max-width: 600px) {
 	h2 {
 		font-size: 18px !important;
+	}
+	.about {
+		font-size: 16px;
+	}
+	.about h1 {
+		font-size: 24px;
 	}
 }

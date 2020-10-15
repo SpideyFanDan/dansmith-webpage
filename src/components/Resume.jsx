@@ -19,7 +19,7 @@ class Resume extends Component {
 					target='new'
 					href='https://drive.google.com/file/d/1ZoYpvnoSyXHyXHGc0F2ALXjO43VyrN_l/view?usp=sharing'
 					className='view-button'>
-					<Button className='view-button' rounded variant='gray'>
+					<Button bsClass='view-button' rounded variant='gray'>
 						Click here to download or view below
 					</Button>
 				</a>
