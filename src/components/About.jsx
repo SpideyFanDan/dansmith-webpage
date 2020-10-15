@@ -24,7 +24,7 @@ export default class About extends Component {
 					are spoken and traveled to many more. While in Graduate School to
 					become a teacher I won the original iPhone from a travel blog I wrote
 					back in the summer of 2007 and continued to write more to that blog
-					because I find it fun and therapeutic.
+					because I find it fun and therapeutic. (travel blog coming soon)
 				</p>
 				<hr />
 				<p>
@@ -34,13 +34,6 @@ export default class About extends Component {
 					new adventure in life and I can't wait to get a mountain bike so I can
 					add new blog posts to my travel experiences as I find new trails to
 					ride on in the outdoorsy city and state.
-				</p>
-				<hr />
-				<p>
-					Take a look at my website. I've posted my portfolio of web
-					applications I've created, my resume, and soon will post my travel
-					blog which also includes my award-winning post about my study abroad
-					in Brazil.
 				</p>
 				<hr />
 				<p>

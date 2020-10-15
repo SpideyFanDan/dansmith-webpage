@@ -46,6 +46,7 @@ code {
 }
 .brand {
 	color: #ea5455 !important;
+	font-size: 36px !important;
 }
 .dropdown {
 	color: #ea5455 !important;
@@ -60,11 +61,27 @@ code {
 	color: #e5e5e5 !important;
 	font-family: 'Architects Daughter';
 }
+.cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.portfolio-card {
+	radius: 10px;
+	font-family: 'Architects Daughter';
+	color: #2d4059 !important;
+	font-size: 24px;
+	position: center;
+}
 .btn {
 	margin-left: 10px;
 	border-radius: 1em !important;
-	color: #2d4059 !important;
-	background-color: #e5e5e5 !important;
+	background-color: #2d4059 !important;
+	color: #e5e5e5 !important;
+	font-size: 18px !important;
 }
 .websling {
 	width: 100%;
@@ -84,18 +101,32 @@ h2 {
 	font-family: 'Architects Daughter' !important;
 	color: #ea5455 !important;
 }
+.blog {
+	font-family: 'Architects Daughter';
+	background-color: #e5e5e5;
+	color: #2d4059;
+	font-size: 24px;
+	padding: 2em;
+}
 .about {
 	font-family: 'Architects Daughter';
 	background-color: #e5e5e5;
 	color: #2d4059;
 	font-size: 24px;
 }
+.about p {
+	padding: 0px 15px 15px 15px;
+}
 .about h1 {
 	background-color: #ea5455;
 	color: #2d4059;
+	padding-left: 15px;
 }
 .about hr {
 	color: #2d4059;
+	border-color: #ea5455;
+	border-top: 5px dotted #ea5455;
+	width: 5%;
 }
 @media screen and (max-width: 600px) {
 	h2 {
@@ -106,5 +137,12 @@ h2 {
 	}
 	.about h1 {
 		font-size: 24px;
+	}
+	.blog {
+		font-size: 25px !important;
+		padding: 1.5em !important;
+	}
+	.brand {
+		font-size: 30px !important;
 	}
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Button, Image } from 'react-bootstrap';
+import { Jumbotron, Container, Image } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
@@ -11,16 +11,16 @@ export default class Home extends Component {
 					<h1>Welcome to Dan Smith's Website</h1>
 					<p>Web Developer and Super-Geeky Comics Fan</p>
 					<Link to='/about'>
-						<Button className='btn'>About</Button>
+						<button className='btn'>About</button>
 					</Link>
 					<Link to='/portfolio'>
-						<Button className='btn'>Portfolio</Button>
+						<button className='btn'>Portfolio</button>
 					</Link>
 					<Link to='/resume'>
-						<Button className='btn'>Resume</Button>
+						<button className='btn'>Resume</button>
 					</Link>
 					<Link to='/blog'>
-						<Button className='btn'>Blog</Button>
+						<button className='btn'>Blog</button>
 					</Link>
 				</Jumbotron>
 				<Image

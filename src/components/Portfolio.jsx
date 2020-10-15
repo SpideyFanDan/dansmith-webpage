@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
+import { Card } from 'react-bootstrap';
+// import ReactPlayer from 'react-player';
 
 export default class Portfolio extends Component {
 	render() {
 		return (
-			<div>
-				<Carousel>
+			<div className='cards'>
+				{/* <Carousel>
 					<Carousel.Item>
 						<img
 							className='carousel-image'
@@ -61,7 +61,54 @@ export default class Portfolio extends Component {
 							</Carousel.Caption>
 						</a>
 					</Carousel.Item>
-				</Carousel>
+				</Carousel> */}
+				<Card style={{ width: '80%' }} className='portfolio-card'>
+					<Card.Img
+						variant='top'
+						src={require('../images/spidey-trivia.jpg')}
+						alt='Spidey Trivia Game'
+					/>
+
+					<Card.Title className='text-center'>Spidey Trivia Game</Card.Title>
+					<Card.Text className='text-center'>
+						Standard HTML/CSS/JavaScript trivia app
+					</Card.Text>
+					<Card.Footer className='text-center'>
+						<button>Git Repository</button>
+						<button>Deployed App</button>
+					</Card.Footer>
+				</Card>
+				<Card style={{ width: '80%' }} className='portfolio-card'>
+					<Card.Img
+						variant='top'
+						src={require('../images/sbr-screenshot.jpg')}
+						alt='Superhero Battle Royale App'
+					/>
+					<Card.Body className='text-center'>
+						<Card.Title>Spidey Trivia Game</Card.Title>
+						<Card.Text>Standard HTML/CSS/JavaScript trivia app</Card.Text>
+					</Card.Body>
+					<Card.Footer className='text-center'>
+						<button>Git Repository</button>
+						<button>Deployed App</button>
+					</Card.Footer>
+				</Card>
+				<Card style={{ width: '80%' }} className='portfolio-card'>
+					<Card.Img
+						variant='top'
+						src={require('../images/comics-collection-screenshot.jpg')}
+						alt='Comics collection app'
+					/>
+
+					<Card.Title className='text-center'>Spidey Trivia Game</Card.Title>
+					<Card.Text className='text-center'>
+						Standard HTML/CSS/JavaScript trivia app
+					</Card.Text>
+					<Card.Footer className='text-center'>
+						<button>Git Repository</button>
+						<button>Deployed App</button>
+					</Card.Footer>
+				</Card>
 			</div>
 		);
 	}

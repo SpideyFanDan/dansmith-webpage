@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Image } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 class Resume extends Component {
 	// state = { numPages: null, pageNumber: 1 };
 
