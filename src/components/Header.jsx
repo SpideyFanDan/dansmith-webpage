@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavDropdown, Image } from 'react-bootstrap';
-import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { MDBIcon, MDBContainer } from 'mdbreact';
 import 'mdbreact/dist/css/mdb.css';
 class Header extends Component {
 	render() {
@@ -10,8 +10,6 @@ class Header extends Component {
 					<img
 						className='d-inline-block align-top'
 						src={require('../images/spideyfandan_logo.png')}
-						width='80'
-						height='auto'
 						alt='SpideyFanDan Logo'
 					/>
 				</Navbar.Brand>

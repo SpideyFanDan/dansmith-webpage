@@ -24,7 +24,7 @@ class Resume extends Component {
 					</Button>
 				</a>
 				<hr />
-				<h2>Resume</h2>
+				<h2 className='resume'>Resume</h2>
 				<div>
 					<img
 						className='resume-img'

@@ -48,6 +48,10 @@ code {
 	color: #ea5455 !important;
 	font-size: 36px !important;
 }
+.brand img {
+	width: 80px;
+	height: auto;
+}
 .dropdown {
 	color: #ea5455 !important;
 }
@@ -61,6 +65,9 @@ code {
 	color: #e5e5e5 !important;
 	font-family: 'Architects Daughter';
 }
+.jumbotron img {
+	margin: 0 0 1em 0;
+}
 .cards {
 	display: flex;
 	flex-direction: column;
@@ -73,16 +80,43 @@ code {
 	radius: 10px;
 	font-family: 'Architects Daughter';
 	color: #2d4059 !important;
-	font-size: 24px;
+	background-color: #e5e5e5 !important;
 	position: center;
 	margin: 1em;
 }
+
 .portfolio-btn {
-	margin-left: 10px;
-	border-radius: .5em !important;
-	background-color: #2d4059 !important;
-	color: #e5e5e5 !important;
-	font-size: 18px !important;
+	margin: 5px 1em 5px 1em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 0.5em !important;
+	color: #e5e5e5;
+	font-size: 18px;
+	font-weight: 2%;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: #2d4059;
+	-webkit-box-shadow: 1px 1px 10px 0 #ea5455;
+	-moz-box-shadow: 1px 1px 10px 0 #ea5455;
+	box-shadow: 1px 1px 1px 0 #ea5455;
+	border: solid #e5e5e5 2px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	outline: none !important;
+}
+.portfolio-btn:hover {
+	background: #2d4059;
+	border: solid #e5e5e5 2px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ea5455 !important;
+}
+.portfolio-btn:active {
+	box-shadow: none;
+	transform: translateY(4px);
 }
 .websling {
 	width: 100%;
@@ -152,5 +186,9 @@ h2 {
 	}
 	.brand {
 		font-size: 30px !important;
+	}
+	.jumbotron img {
+		width: 100%;
+		height: auto;
 	}
 }
