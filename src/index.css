@@ -36,13 +36,13 @@ code {
 	width: 100%;
 }
 .navbar {
-	background: #2d4059 !important;
+	background: #e5e5e5 !important;
 	font-family: 'Architects Daughter' !important;
-	color: #e5e5e5 !important;
+	color: #2d4059 !important;
 	font-size: 28px !important;
 }
 .nav-link {
-	color: #e5e5e5 !important;
+	color: #2d4059 !important;
 }
 .brand {
 	color: #ea5455 !important;
@@ -75,10 +75,11 @@ code {
 	color: #2d4059 !important;
 	font-size: 24px;
 	position: center;
+	margin: 1em;
 }
-.btn {
+.portfolio-btn {
 	margin-left: 10px;
-	border-radius: 1em !important;
+	border-radius: .5em !important;
 	background-color: #2d4059 !important;
 	color: #e5e5e5 !important;
 	font-size: 18px !important;
@@ -86,8 +87,15 @@ code {
 .websling {
 	width: 100%;
 	max-width: 1000px !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+.logo {
+	width: 50%;
+	height: auto;
+	max-width: 1000px !important;
 	align-items: center;
-	justify-content: centre;
+	justify-content: center;
 }
 h2 {
 	font-family: 'Architects Daughter';

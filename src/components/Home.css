@@ -3,7 +3,7 @@
 	src: local('Fanboy'), url(../fonts/fanboyhc.ttf) format('truetype');
 }
 .jumbotron {
-	background-color: #ea5455 !important;
+	background-color: #2d4059 !important;
 	background-image: url('../images/Spidey_Dan_Web_Slinging_Buddy.jpg') no-repeat;
 	font-family: 'Architects Daughter';
 	color: #e5e5e5 !important;
@@ -11,7 +11,7 @@
 
 .btn {
 	margin-left: 10px;
-	border-radius: 1em !important;
+	border-radius: .5em !important;
 	color: #2d4059 !important;
-	background-color: #e5e5e5 !important;
+	background-color: #ea5455 !important;
 }

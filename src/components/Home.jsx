@@ -8,6 +8,13 @@ export default class Home extends Component {
 		return (
 			<Container fluid>
 				<Jumbotron className='jumbotron'>
+					<img
+						className='logo'
+						src={require('../images/spideyfandan_words_logo_wgreybg.png')}
+						alt='SpideyFanDan Logo'
+						width='500'
+						height='100'
+					/>
 					<h1>Welcome to Dan Smith's Website</h1>
 					<p>Web Developer and Super-Geeky Comics Fan</p>
 					<Link to='/about'>

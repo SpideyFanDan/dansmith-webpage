@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { MDBIcon, MDBContainer } from 'mdbreact';
-
+import { Nav, Navbar, NavDropdown, Image } from 'react-bootstrap';
+import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import 'mdbreact/dist/css/mdb.css';
 class Header extends Component {
 	render() {
 		return (
 			<Navbar className='navbar' collapseOnSelect expand='lg'>
 				<Navbar.Brand className='brand' href='/'>
-					SpideyFanDan
+					<img
+						className='d-inline-block align-top'
+						src={require('../images/spideyfandan_logo.png')}
+						width='80'
+						height='auto'
+						alt='SpideyFanDan Logo'
+					/>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
@@ -45,43 +51,44 @@ class Header extends Component {
 							<a
 								target='new'
 								href='https://www.linkedin.com/in/dansmithdev/'
-								className='li-ic mr-3'>
-								<MDBIcon fab icon='linkedin-in' />
+								className='li-ic indigo-text mr-2'>
+								<MDBIcon fab icon='linkedin' />
 							</a>
 							<a
 								target='new'
 								href='https://github.com/SpideyFanDan'
-								className='git-ic mr-3'>
-								<MDBIcon fab icon='github' />
+								className='git-ic black-text mr-2'>
+								<MDBIcon fab icon='github-square' />
 							</a>
 							<a
 								target='new'
 								href='https://www.instagram.com/spideyfandan/'
-								className='ins-ic mr-3'>
+								className='ins-ic pink-text mr-2'>
 								<MDBIcon fab icon='instagram' />
 							</a>
-							<a
-								target='new'
-								href='https://twitter.com/SpideyFanDan'
-								className='tw-ic mr-3'>
-								<MDBIcon fab icon='twitter' />
+							<a target='new' href='https://twitter.com/SpideyFanDan'>
+								<MDBIcon
+									className='tw-ic light-blue-text mr-2'
+									fab
+									icon='twitter-square'
+								/>
 							</a>
 							<a
 								target='new'
 								href='https://www.facebook.com/SpideyFanDan'
-								className='fb-ic mr-3'>
-								<MDBIcon fab icon='facebook-f' />
+								className='fb-ic blue-text mr-2'>
+								<MDBIcon className='' fab icon='facebook' />
 							</a>
 							<a
 								target='new'
 								href='https://www.youtube.com/channel/UCDvqg8L184ADwDCt-Dkkdbg/'
-								className='yt-ic mr-3'>
+								className='red-text pr-2'>
 								<MDBIcon fab icon='youtube' />
 							</a>
 							<a
 								target='new'
 								href='mailto:dansmith.coder@gmail.com'
-								className='email-ic mr-3'>
+								className='email-ic white-text mr-2'>
 								<MDBIcon icon='envelope' />
 							</a>
 						</MDBContainer>
