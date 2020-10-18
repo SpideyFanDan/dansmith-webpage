@@ -10,6 +10,7 @@ class Header extends Component {
 					<img
 						className='d-inline-block align-top'
 						src={require('../images/spideyfandan_logo.png')}
+						// Logo created by Sarah Minor Design https://sarahlminordesign.com/
 						alt='SpideyFanDan Logo'
 					/>
 				</Navbar.Brand>

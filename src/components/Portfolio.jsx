@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
-// import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player';
 
 export default class Portfolio extends Component {
 	render() {
 		return (
 			<div className='cards'>
 				<Card style={{ width: '80%' }} className='portfolio-card'>
-					<Card.Img
-						variant='top'
-						src={require('../images/spidey-trivia.jpg')}
-						alt='Spidey Trivia Game'
-					/>
-
+					<div className='player-wrapper'>
+						<ReactPlayer
+							className='react-player'
+							width='100%'
+							height='100%'
+							url='https://youtu.be/FWjOt6PZ9Gg'
+						/>
+					</div>
 					<Card.Title className='text-center'>Spidey Trivia Game</Card.Title>
 					<Card.Text className='text-center'>
 						Standard HTML/CSS/JavaScript App
@@ -31,11 +33,14 @@ export default class Portfolio extends Component {
 					</Card.Footer>
 				</Card>
 				<Card style={{ width: '80%' }} className='portfolio-card'>
-					<Card.Img
-						color='top'
-						src={require('../images/sbr-screenshot.jpg')}
-						alt='Superhero Battle Royale App'
-					/>
+					<div className='player-wrapper'>
+						<ReactPlayer
+							className='react-player'
+							width='100%'
+							height='100%'
+							url='https://youtu.be/FWjOt6PZ9Gg'
+						/>
+					</div>
 					<Card.Body className='text-center'>
 						<Card.Title>Superhero Battle Royale App</Card.Title>
 						<Card.Text style={{ color: '#2d4059' }}>
@@ -62,12 +67,14 @@ export default class Portfolio extends Component {
 					</Card.Footer>
 				</Card>
 				<Card style={{ width: '80%' }} className='portfolio-card'>
-					<Card.Img
-						color='top'
-						src={require('../images/comics-collection-screenshot.jpg')}
-						alt='Comics collection app'
-					/>
-
+					<div className='player-wrapper'>
+						<ReactPlayer
+							className='react-player'
+							width='100%'
+							height='100%'
+							url='https://youtu.be/FWjOt6PZ9Gg'
+						/>
+					</div>
 					<Card.Title className='text-center'>
 						Comic Book Collection App
 					</Card.Title>
