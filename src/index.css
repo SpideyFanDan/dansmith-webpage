@@ -87,8 +87,11 @@ code {
 .player-wrapper {
 	position: relative;
 	padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+	margin: 1em;
 }
-
+.card-text {
+	margin: 1em;
+}
 .react-player {
 	position: absolute;
 	top: 0;

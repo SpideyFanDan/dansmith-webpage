@@ -16,10 +16,12 @@ export default class Portfolio extends Component {
 							url='https://youtu.be/YjYdB-7WWfE'
 						/>
 					</div>
-					<Card.Title className='text-center'>Spidey Trivia Game</Card.Title>
-					<Card.Text className='text-center'>
+					<Card.Body className='text-center'>
+						<Card.Title>Spidey Trivia Game</Card.Title>
+					<Card.Text className='card-text' style={{ color: '#2d4059' }}>
 						Standard HTML/CSS/JavaScript App
 					</Card.Text>
+					</Card.Body>
 					<Card.Footer className='text-center'>
 						<a
 							href='https://spideyfandan.github.io/Spidey-Trivia-Game/'
@@ -45,7 +47,7 @@ export default class Portfolio extends Component {
 					</div>
 					<Card.Body className='text-center'>
 						<Card.Title>Superhero Battle Royale App</Card.Title>
-						<Card.Text style={{ color: '#2d4059' }}>
+						<Card.Text className='card-text' style={{ color: '#2d4059' }}>
 							Mongoose, Express, React, and Node app with personal MongoDB API
 							with CRUD functionality and Bootstrap styling.
 						</Card.Text>
@@ -78,14 +80,16 @@ export default class Portfolio extends Component {
 							url='https://youtu.be/FWjOt6PZ9Gg'
 						/>
 					</div>
-					<Card.Title className='text-center'>
+					<Card.Body className='text-center'>
+					<Card.Title>
 						Comic Book Collection App
 					</Card.Title>
-					<Card.Text className='text-center'>
+					<Card.Text className='card-text' style={{ color: '#2d4059' }}>
 						Django/Python backend with personal API, using authentication and
 						Synthesizers, and CRUD functionality. React App frontend with
 						Bootstrap styling and ComicVine free API.
 					</Card.Text>
+					</Card.Body>
 					<Card.Footer className='text-center'>
 						<a
 							href='https://dws-comic-book-organizer.herokuapp.com/'
