@@ -88,6 +88,7 @@ code {
 	position: relative;
 	padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 	margin: 1em;
+	border: groove #ea5455 4px;
 }
 .card-text {
 	margin: 1em;
