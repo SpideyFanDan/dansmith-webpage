@@ -12,6 +12,7 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
+							controls="controls"
 							url='https://youtu.be/FWjOt6PZ9Gg'
 						/>
 					</div>
