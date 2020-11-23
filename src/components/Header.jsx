@@ -27,21 +27,21 @@ class Header extends Component {
 							Resume
 						</Nav.Link>
 						<NavDropdown title='Blogs' id='collasible-nav-dropdown'>
-							<NavDropdown.Item className='dropdown' href='/blog'>
-								Travel Blog 1
+							<NavDropdown.Item target='new' className='dropdown' href='https://spideyfandan.wordpress.com/2007/07/04/my-adventure-begins/'>
+								Travel Blog - Brazil 2007
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='/blog'>
-								Travel Blog 2
+							<NavDropdown.Item target='new' className='dropdown' href='https://spideyfandan.wordpress.com/2006/08/08/hello-world/'>
+								Travel Blog - Italy 2006
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='/blog'>
-								Travel Blog 3
+							<NavDropdown.Item target='new' className='dropdown' href='https://spideyfandan.wordpress.com/2010/07/21/vienna-the-arrival/'>
+								Travel Blog - Vienna 2010
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item className='dropdown' href='/blog'>
-								Developer Blog 1
+							<NavDropdown.Item target='new' className='dropdown' href='https://www.linkedin.com/pulse/developers-journey-through-react-dan-smith/?trackingId=Nll2xvJLTKiXOF%2BwGeVhOg%3D%3D'>
+								Coding my 1st React App
 							</NavDropdown.Item>
-							<NavDropdown.Item className='dropdown' href='/blog'>
-								Developer Blog 2
+							<NavDropdown.Item target='new' className='dropdown' href='https://www.linkedin.com/pulse/developers-journey-through-react-part-2-dan-smith/?trackingId=fDOnqpDiSQWxFo9DlMIRZA%3D%3D'>
+								Coding my 1st React App part 2
 							</NavDropdown.Item>
 						</NavDropdown>
 					</Nav>
