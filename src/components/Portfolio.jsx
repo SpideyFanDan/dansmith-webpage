@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
 							width='100%'
 							height='100%'
 							controls="controls"
-							url='https://youtu.be/FWjOt6PZ9Gg'
+							url='https://youtu.be/YjYdB-7WWfE'
 						/>
 					</div>
 					<Card.Title className='text-center'>Spidey Trivia Game</Card.Title>
@@ -39,7 +39,8 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
-							url='https://youtu.be/FWjOt6PZ9Gg'
+							controls="controls"
+							url='https://youtu.be/87QT0HzPPY8'
 						/>
 					</div>
 					<Card.Body className='text-center'>
@@ -73,6 +74,7 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
+							controls="controls"
 							url='https://youtu.be/FWjOt6PZ9Gg'
 						/>
 					</div>
