@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
-							controls="controls"
+							controls
 							url='https://youtu.be/YjYdB-7WWfE'
 						/>
 					</div>
@@ -39,7 +39,7 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
-							controls="controls"
+							controls
 							url='https://youtu.be/87QT0HzPPY8'
 						/>
 					</div>
@@ -74,7 +74,7 @@ export default class Portfolio extends Component {
 							className='react-player'
 							width='100%'
 							height='100%'
-							controls="controls"
+							controls
 							url='https://youtu.be/FWjOt6PZ9Gg'
 						/>
 					</div>
