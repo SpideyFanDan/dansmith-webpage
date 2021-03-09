@@ -78,12 +78,13 @@ code {
 	height: 100%;
 }
 .portfolio-card {
-	radius: 10px;
 	font-family: 'Architects Daughter';
 	color: #2d4059 !important;
 	background-color: #e5e5e5 !important;
 	position: center;
 	margin: 1em;
+	max-width: 500px !important;
+	flex: 1em;
 }
 .player-wrapper {
 	position: relative;
@@ -134,7 +135,7 @@ code {
 }
 .websling {
 	width: 100%;
-	max-width: 1000px !important;
+	max-width: 500px !important;
 	align-items: center !important;
 	justify-content: center !important;
 }

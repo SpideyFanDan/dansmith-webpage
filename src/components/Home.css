@@ -15,3 +15,12 @@
 	color: #2d4059 !important;
 	background-color: #ea5455 !important;
 }
+@media screen and (max-width: 600px) {
+.jumbotron-div {
+	font-size: 3vw;
+}
+
+.jumbotron-header {
+	font-size: 5vw;
+}
+}	

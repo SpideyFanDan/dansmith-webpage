@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 class Resume extends Component {
-	// state = { numPages: null, pageNumber: 1 };
-
-	// onDocumentLoadSuccess = ({ numPages }) => {
-	// 	this.setState({ numPages });
-	// };
-
-	// goToPrevPage = () =>
-	// 	this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
-	// goToNextPage = () =>
-	// 	this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
 	render() {
-		// const { pageNumber, numPages } = this.state;
 		return (
 			<div>
 				<a

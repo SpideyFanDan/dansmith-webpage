@@ -8,16 +8,22 @@ export default class Home extends Component {
 		return (
 			<Container fluid>
 				<Jumbotron className='jumbotron'>
-					<img
+					<div className='jumbotron-div'><img
 						className='logo'
 						src={require('../images/spideyfandan_words_logo_wgreybg.png')}
 						alt='SpideyFanDan Logo'
 						// width='500'
 						// height='100'
 					/>
-					<h1>Welcome to Dan Smith's Website</h1>
+					<h1 className="jumbotron-header">Welcome to Dan Smith's Website</h1>
 					<p>Web Developer and Super-Geeky Comics Fan</p>
-					<Link to='/about'>
+					<Image
+					className='websling'
+					src={require('../images/Spidey_Dan_Web_Slinging_Buddy.jpg')}
+					alt='webslinger Dan'
+					fluid
+				/></div>
+				<Link to='/about'>
 						<button className='btn'>About</button>
 					</Link>
 					<Link to='/portfolio'>
@@ -29,13 +35,9 @@ export default class Home extends Component {
 					<Link to='/blog'>
 						<button className='btn'>Blog</button>
 					</Link>
+					
 				</Jumbotron>
-				<Image
-					className='websling'
-					src={require('../images/Spidey_Dan_Web_Slinging_Buddy.jpg')}
-					alt='webslinger Dan'
-					fluid
-				/>
+				
 			</Container>
 		);
 	}
