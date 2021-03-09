@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 class Resume extends Component {
 	render() {
 		return (
-			<div>
+			<div className='resume-page'>
 				<a
 					target='new'
 					href='https://drive.google.com/file/d/1ZoYpvnoSyXHyXHGc0F2ALXjO43VyrN_l/view?usp=sharing'
@@ -13,7 +13,7 @@ class Resume extends Component {
 					</Button>
 				</a>
 				<hr />
-				<h2 className='resume'>Resume</h2>
+				<h2 className='resume'>Resume:</h2>
 				<div>
 					<img
 						className='resume-img'

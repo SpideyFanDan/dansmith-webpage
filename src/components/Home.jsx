@@ -8,7 +8,8 @@ export default class Home extends Component {
 		return (
 			<Container fluid>
 				<Jumbotron className='jumbotron'>
-					<div className='jumbotron-div'><img
+					<div className='jumbotron-div'>
+						<img
 						className='logo'
 						src={require('../images/spideyfandan_words_logo_wgreybg.png')}
 						alt='SpideyFanDan Logo'

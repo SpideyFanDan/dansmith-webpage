@@ -72,6 +72,7 @@ code {
 .cards {
 	display: flex;
 	flex-direction: column;
+	flex: 2;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
@@ -135,14 +136,14 @@ code {
 }
 .websling {
 	width: 100%;
-	max-width: 500px !important;
+	max-width: 615px !important;
 	align-items: center !important;
 	justify-content: center !important;
 }
 .logo {
-	width: 50%;
+	width: 100%;
 	height: auto;
-	max-width: 1000px !important;
+	max-width: 615px !important;
 	align-items: center;
 	justify-content: center;
 }
@@ -152,7 +153,7 @@ h2 {
 }
 .resume-img {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 615px;
 }
 .view-button {
 	font-family: 'Architects Daughter' !important;
@@ -190,7 +191,7 @@ h2 {
 		font-size: 18px !important;
 	}
 	.about {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.about h1 {
 		font-size: 24px;
@@ -202,8 +203,5 @@ h2 {
 	.brand {
 		font-size: 30px !important;
 	}
-	.jumbotron img {
-		width: 100%;
-		height: auto;
-	}
+
 }
