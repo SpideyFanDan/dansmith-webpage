@@ -6,7 +6,7 @@ class Resume extends Component {
 			<div className='resume-page'>
 				<a
 					target='new'
-					href='https://drive.google.com/file/d/1ZoYpvnoSyXHyXHGc0F2ALXjO43VyrN_l/view?usp=sharing'
+					href='https://drive.google.com/file/d/1VAvzz9vJO38UsIj1uajC5iWvQUXb1fg3/view?usp=sharing'
 					className='view-button'>
 					<Button bsClass='view-button' rounded variant='gray'>
 						Click here to download pdf file or view below
@@ -17,7 +17,7 @@ class Resume extends Component {
 				<div>
 					<img
 						className='resume-img'
-						src={require('../images/dansmith-resume.jpg')}
+						src={require('../images/dansmith-resume.png')}
 						alt='Dan Smith resume'></img>
 				</div>
 			</div>

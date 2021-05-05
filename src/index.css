@@ -124,13 +124,17 @@ code {
 }
 
 
-h2 {
+.resume {
 	font-family: 'Architects Daughter';
 	color: #ea5455 !important;
+	padding-left: 15px;
 }
 .resume-img {
 	width: 100%;
-	max-width: 615px;
+	max-width: 800px;
+	padding: 15px 15px 15px 15px;
+	display: flex;
+	justify-content: center;
 }
 .view-button {
 	font-family: 'Architects Daughter' !important;
