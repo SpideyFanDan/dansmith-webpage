@@ -1,29 +1,36 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Image } from 'react-bootstrap';
+import { Jumbotron, Container, Image, Row, Col } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
 	render() {
 		return (
-			<Container fluid>
-				<Jumbotron className='jumbotron'>
-					<div className='jumbotron-div'>
-						<img
+			<Container className='jumbotron' fluid>
+				<Row >
+					 <img
+						className='read-comics'
+						src={require('../images/DanSmith.png')}
+						alt='SpideyFanDan Logo'
+						// width='50'
+						// height='100'
+					/><img
 						className='logo'
 						src={require('../images/spideyfandan_words_logo_wgreybg.png')}
 						alt='SpideyFanDan Logo'
 						// width='500'
 						// height='100'
-					/>
-					<h1 className="jumbotron-header">Welcome to Dan Smith's Website</h1>
-					<p>Web Developer and Super-Geeky Comics Fan</p>
+					/></Row>
+					<Row><Col><h1 className="jumbotron-header">Welcome to Dan Smith's Website</h1><p className="intro-p">I'm a master teacher and life-long learner turned software developer with an adventurous soul who loves languages, travel, superheroes, and leading people and organizations to their full potential. </p></Col></Row>
+					
+					<Row>
+						
 					<Image
 					className='websling'
 					src={require('../images/Spidey_Dan_Web_Slinging_Buddy.jpg')}
 					alt='webslinger Dan'
 					fluid
-				/></div>
+				/></Row>
 				<Link to='/about'>
 						<button className='btn'>About</button>
 					</Link>
@@ -37,7 +44,7 @@ export default class Home extends Component {
 						<button className='btn'>Blog</button>
 					</Link>
 					
-				</Jumbotron>
+				
 				
 			</Container>
 		);

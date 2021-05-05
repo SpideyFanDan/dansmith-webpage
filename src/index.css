@@ -56,19 +56,7 @@ code {
 	color: #ea5455 !important;
 	color: #2d4059;
 }
-.jumbotron {
-	background-color: #ea5455 !important;
-	font-family: 'Architects Daughter';
-	color: #e5e5e5 !important;
-	font-size: 24px;
-}
-.jumbotron h2 {
-	color: #e5e5e5 !important;
-	font-family: 'Architects Daughter';
-}
-.jumbotron img {
-	margin: 0 0 1em 0;
-}
+
 .cards {
 	display: flex;
 	flex-direction: column;
@@ -134,19 +122,8 @@ code {
 	box-shadow: none;
 	transform: translateY(4px);
 }
-.websling {
-	width: 100%;
-	max-width: 615px !important;
-	align-items: center !important;
-	justify-content: center !important;
-}
-.logo {
-	width: 100%;
-	height: auto;
-	max-width: 615px !important;
-	align-items: center;
-	justify-content: center;
-}
+
+
 h2 {
 	font-family: 'Architects Daughter';
 	color: #ea5455 !important;

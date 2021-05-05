@@ -3,23 +3,49 @@
 	src: local('Fanboy'), url(../fonts/fanboyhc.ttf) format('truetype');
 }
 .jumbotron {
-	background-color: #2d4059 !important;
-	background-image: url('../images/Spidey_Dan_Web_Slinging_Buddy.jpg') no-repeat;
+	background-color: #e5e5e5 !important;
+	/* background-image: url('../images/Spidey_Dan_Web_Slinging_Buddy.jpg') no-repeat; */
 	font-family: 'Architects Daughter';
-	color: #e5e5e5 !important;
+	color: #2d4059 !important;
+}
+.websling {
+	width: 100%;
+	max-width: 615px !important;
+	align-items: center !important;
+	justify-content: center !important;
 }
 
+.logo {
+	width: 50%;
+	height: 50%;
+	max-width: 615px !important;
+	align-items: center;
+	justify-content: center;
+}
+
+.read-comics {
+	width: 40%;
+	height: auto;
+	max-width: 615px !important;
+	/* align-items: center;
+	justify-content: center; */
+}
 .btn {
 	margin-left: 10px;
 	border-radius: .5em !important;
 	color: #2d4059 !important;
 	background-color: #ea5455 !important;
 }
+.intro-p {
+	font-size: 20px;
+}
 @media screen and (max-width: 600px) {
 .jumbotron-div {
 	font-size: 3vw;
 }
-
+.intro-p {
+	font-size: 3.5vw;
+}
 .jumbotron-header {
 	font-size: 5vw;
 }
