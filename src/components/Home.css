@@ -9,10 +9,17 @@
 	color: #2d4059 !important;
 }
 .websling {
-	width: 100%;
+	width: 80%;
 	max-width: 615px !important;
 	align-items: center !important;
 	justify-content: center !important;
+}
+.websling-div {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .logo {
@@ -49,5 +56,13 @@
 }
 .jumbotron-header {
 	font-size: 5vw;
+}
+.websling {
+	width: 100% !important;
+}
+.websling-div {
+	padding: 15px 15px 15px 15px;
+	display: flex;
+	justify-content: center;
 }
 }	

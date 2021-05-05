@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+// import background from '../images/Spidey_Dan_Web_Slinging_Buddy.jpg'
 
 export default class About extends Component {
 	render() {
 		return (
-			<div className='about'>
-				<h1>About Me</h1>
-				<p>
-					My name is Dan Smith, and while I've been a master language teacher in NYC for the last 15 years, I've recently been learning computer languages in order to shift my career focus to media and technology. I've been fortunate enough to work on projects related to things that I am passionate about as is evident in my portfolio.</p>
+			<div >
+				<h1 className='about-h1'>About Me</h1>
+				<div className='about'><p >
+					My name is Dan Smith, and while I've been a masters level language teacher in NYC for the last 15 years, I've recently been learning computer languages in order to shift my career focus to media and technology. I've been fortunate enough to work on projects related to things that I am passionate about as is evident in my portfolio.</p>
 				<hr />
 				<p>
 					I am an adventurous soul with a child-like nature. I love comic books
@@ -14,7 +15,13 @@ export default class About extends Component {
 					My first software development app that I ever created using HTML, CSS,
 					and JavaScript was a trivia app about the legend himself.
 				</p>
-				<hr />
+				<div className="websling-div"><img
+						className='websling'
+						src={require('../images/Spidey_Dan_Web_Slinging_Buddy.jpg')}
+						alt='SpideyFanDan Logo'
+						// width='50'
+						// height='100'
+					/></div>
 				<p>
 					I love to travel and speak several languages such as Italian,
 					French, and Spanish. I have lived in countries where those languages
@@ -36,7 +43,7 @@ export default class About extends Component {
 				<p>
 					If you are looking to connect, please use any of the social media
 					links at the top of the page.
-				</p>
+				</p></div>
 			</div>
 		);
 	}
