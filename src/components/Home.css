@@ -18,7 +18,7 @@
 .logo {
 	width: 50%;
 	height: 50%;
-	max-width: 615px !important;
+	max-width: 450px !important;
 	align-items: center;
 	justify-content: center;
 }
@@ -26,7 +26,7 @@
 .read-comics {
 	width: 40%;
 	height: auto;
-	max-width: 615px !important;
+	max-width: 300px !important;
 	/* align-items: center;
 	justify-content: center; */
 }
@@ -38,6 +38,7 @@
 }
 .intro-p {
 	font-size: 20px;
+	max-width: 800px;
 }
 @media screen and (max-width: 600px) {
 .jumbotron-div {

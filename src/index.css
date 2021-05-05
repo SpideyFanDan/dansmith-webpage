@@ -149,6 +149,18 @@ h2 {
 	color: #2d4059;
 	font-size: 24px;
 }
+.about::after {
+	content: "";
+	opacity: 0.15;
+	background-blend-mode: luminosity;
+	background: url('./images/Spidey_Dan_Web_Slinging_Buddy.jpg') no-repeat center center fixed;
+	background-position: 0% 5%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
 .about p {
 	padding: 0px 15px 15px 15px;
 }
@@ -180,5 +192,7 @@ h2 {
 	.brand {
 		font-size: 30px !important;
 	}
-
+.navbar {
+	font-size: 18px !important;
+}
 }

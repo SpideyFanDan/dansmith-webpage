@@ -22,15 +22,6 @@ export default class Home extends Component {
 						// height='100'
 					/></Row>
 					<Row><Col><h1 className="jumbotron-header">Welcome to Dan Smith's Website</h1><p className="intro-p">I'm a master teacher and life-long learner turned software developer with an adventurous soul who loves languages, travel, superheroes, and leading people and organizations to their full potential. </p></Col></Row>
-					
-					<Row>
-						
-					<Image
-					className='websling'
-					src={require('../images/Spidey_Dan_Web_Slinging_Buddy.jpg')}
-					alt='webslinger Dan'
-					fluid
-				/></Row>
 				<Link to='/about'>
 						<button className='btn'>About</button>
 					</Link>

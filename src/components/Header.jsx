@@ -5,7 +5,7 @@ import 'mdbreact/dist/css/mdb.css';
 class Header extends Component {
 	render() {
 		return (
-			<Navbar className='navbar' collapseOnSelect expand='lg'>
+			<Navbar className='navbar' collapseOnSelect expand='md'>
 				<Navbar.Brand className='brand' href='/'>
 					<img
 						className='d-inline-block align-top'
@@ -65,25 +65,25 @@ class Header extends Component {
 								className='ins-ic pink-text mr-2'>
 								<MDBIcon fab icon='instagram' />
 							</a>
-							<a target='new' href='https://twitter.com/SpideyFanDan'>
+							{/* <a target='new' href='https://twitter.com/SpideyFanDan'>
 								<MDBIcon
 									className='tw-ic light-blue-text mr-2'
 									fab
 									icon='twitter-square'
 								/>
-							</a>
+							</a> */}
 							<a
 								target='new'
 								href='https://www.facebook.com/SpideyFanDan'
 								className='fb-ic blue-text mr-2'>
 								<MDBIcon className='' fab icon='facebook' />
 							</a>
-							<a
+							{/* <a
 								target='new'
 								href='https://www.youtube.com/channel/UCDvqg8L184ADwDCt-Dkkdbg/'
 								className='red-text pr-2'>
 								<MDBIcon fab icon='youtube' />
-							</a>
+							</a> */}
 							<a
 								target='new'
 								href='mailto:dansmith.coder@gmail.com'
