@@ -13,6 +13,37 @@ export default class Portfolio extends Component {
 							width='100%'
 							height='100%'
 							controls
+							url='https://youtu.be/hHh1OH01U4s'
+						/>
+					</div>
+					<Card.Body className='text-center'>
+					<Card.Title>
+						Bearcabulary - Hackathon spelling game for children grades K-4.
+					</Card.Title>
+					<Card.Text className='card-text' style={{ color: '#2d4059' }}>
+						React.js and styled components created in three days during a Hackathon event through General Assembly. Development credentials: email: doug@doug.com - password: 1234
+					</Card.Text>
+					</Card.Body>
+					<Card.Footer className='text-center'>
+						<a
+							href='https://typetiger.herokuapp.com/home'
+							target='new'>
+							<button className='portfolio-btn'>Deployed App</button>
+						</a>
+						<a
+							href='https://github.com/daleinen7/type-tigers'
+							target='new'>
+							<button className='portfolio-btn'>GitHub Repo</button>
+						</a>
+					</Card.Footer>
+				</Card>
+				<Card style={{ width: '80%' }} className='portfolio-card'>
+					<div className='player-wrapper'>
+						<ReactPlayer
+							className='react-player'
+							width='100%'
+							height='100%'
+							controls
 							url='https://youtu.be/IqZto1A9ON0'
 						/>
 					</div>
@@ -21,7 +52,7 @@ export default class Portfolio extends Component {
 						What Would Max Do? Covid-19 Vaccine Info App
 					</Card.Title>
 					<Card.Text className='card-text' style={{ color: '#2d4059' }}>
-						React.js and React Bootstrap created in three days during a Hack-a-thon event through General Assembly
+						React.js and React Bootstrap created in three days during a Hackathon event through General Assembly
 					</Card.Text>
 					</Card.Body>
 					<Card.Footer className='text-center'>

@@ -6,7 +6,7 @@ class Resume extends Component {
 			<div className='resume-page'>
 				<a
 					target='new'
-					href='https://drive.google.com/file/d/1VAvzz9vJO38UsIj1uajC5iWvQUXb1fg3/view?usp=sharing'
+					href='https://drive.google.com/file/d/1VUXALqySVEJkYefW5cvm1wkLeLPIceMX/view?usp=sharing'
 					className='view-button'>
 					<Button bsClass='view-button' rounded variant='gray'>
 						Click here to download pdf file or view below
